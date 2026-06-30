@@ -1,9 +1,15 @@
 {
+  "version": 2,
   "builds": [
-    { "src": "tru.py", "use": "@vercel/python" }
+    {
+      "src": "tru.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "tru.py" }
-  ],
-  "regions": ["bom1"]
+    {
+      "src": "/(.*)",
+      "dest": "tru.py"
+    }
+  ]
 }
