@@ -1,0 +1,9 @@
+{
+  "builds": [
+    { "src": "tru", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "tru.py" }
+  ],
+  "regions": ["bom1"]
+}
